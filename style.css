@@ -208,7 +208,7 @@ body {
   background: linear-gradient(#e6eaeb, #ffffff);
 
   > img {
-    width: 95%;
+    width: 100%;
   }
   .second-section {
     margin: 150px;
@@ -327,6 +327,7 @@ footer{
   .second-section {
     padding: 0;
   }
+
 
   .surface-laptop-image {
     background: transparent;
@@ -467,7 +468,7 @@ footer{
     padding: 0;
   }
   .second_navbar {
-    gap: 30px;
+    gap: 10px;
   }
 
   .microsoft-surface {
