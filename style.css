@@ -1,0 +1,505 @@
+.insightLogo {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: white;
+  max-width: 380px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.square-rect {
+  height: 500px;
+  width: 130px;
+  position: absolute;
+  bottom: -40px;
+  right: 200px;
+  background: #aa1674;
+  transform: rotate(-45deg);
+  z-index: 1;
+}
+.square-rect:before {
+  content: " ";
+  height: 500px;
+  width: 130px;
+  position: absolute;
+  top: -10px;
+  right: -400px;
+  background: #aa1674;
+  transform: rotate(90deg);
+}
+.square-circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10px;
+  right: 350px;
+  background: #aa1674;
+  z-index: 1;
+}
+
+.square-circle::before {
+  content: " ";
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 580px;
+  right: -250px;
+  background: #aa1674;
+}
+
+.demo-card {
+  max-width: 400px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.demo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 1;
+}
+
+.demo-overlay {
+  position: absolute;
+  inset: 0;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  z-index: 2;
+  > h4 {
+    font-size: 2.5rem;
+  }
+}
+
+.btn-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border-radius: 10px;
+  background: #aa1674;
+}
+
+.btn-arrow i {
+  transform: rotate(-45deg);
+}
+
+.swiper {
+  padding: 40px 0;
+}
+
+.logo-img .micro-logo-img {
+  height: 35px;
+}
+
+.nav-item a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+.main_logo {
+  font-size: 2rem;
+}
+
+.second_navbar {
+  gap: 80px;
+}
+
+.microsoft-surface {
+  font-size: 3rem;
+  font-weight: lighter;
+  line-height: 40px;
+}
+.svg-wrapper {
+  width: 100px; /* base size */
+  max-width: 100%; /* allow it to shrink */
+}
+
+.svg-wrapper svg {
+  width: 100%;
+  height: auto;
+}
+
+.join-the-era {
+  background: linear-gradient(to right, #a80b6e, #911987);
+  position: relative;
+  overflow: hidden;
+
+  > *:not(.square-rect):not(.square-circle) {
+    position: relative;
+    z-index: 2;
+  }
+
+  > .join-era-text {
+    margin-left: 100px;
+
+    > .surface-laptop-btn {
+      > button {
+        padding: 15px 30px;
+        color: #aa1674;
+        font-weight: medium;
+        font-size: 1.2rem;
+        border-radius: 30px;
+        border: none;
+      }
+    }
+    > .company-text {
+      font-size: 4rem;
+      font-weight: 600;
+      color: white;
+    }
+    > h1 {
+      font-size: 60px;
+      font-weight: 600;
+      color: white;
+    }
+    > .hero-paragraph {
+      font-size: 25px;
+      font-weight: 400;
+      color: white;
+    }
+  }
+}
+
+.join-the-era-image {
+  background: linear-gradient(#e6eaeb, #ffffff);
+
+  > img {
+    width: 95%;
+  }
+  .second-section {
+    margin: 150px;
+  }
+}
+
+.surface-laptop {
+  background: white;
+  position: relative;
+  overflow: hidden;
+  margin-top: 50px;
+  > img {
+    width: 50%;
+    height: auto;
+  }
+  > p {
+    padding: 20px 0;
+    line-height: 30px;
+    word-spacing: 6px;
+    font-size: 1.3rem;
+    color: black;
+  }
+  > h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+  }
+
+  > ul {
+    list-style-type: none;
+    > li {
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+  }
+  > button {
+    padding: 10px 20px;
+    background: white;
+    color: #aa1674;
+    border: 1px solid #aa1674;
+    font-weight: 300;
+    font-size: 1.5rem;
+    border-radius: 30px;
+  }
+}
+
+.surface-laptop-image {
+  background: transparent;
+  padding: 50px 100px;
+
+  > img {
+    width: 100%;
+    background-color: transparent;
+  }
+}
+
+.second-section {
+  padding: 0 100px;
+}
+
+.why-insight-section {
+  background: linear-gradient(to right, #a80b6e, #911987);
+  position: relative;
+  overflow: hidden;
+  padding: 0 100px;
+
+  > *:not(.square-rect):not(.square-circle) {
+    position: relative;
+    z-index: 2;
+  }
+  > h2 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    padding: 30px 0;
+    color: white;
+  }
+  > p {
+    padding: 20px 0;
+    line-height: 40px;
+    font-size: 1.6rem;
+    color: white;
+  }
+}
+.insightBelowSwipper {
+  margin: 0;
+  >img {
+    width: 100px;
+    height: 100px;
+    margin-left: -10px;
+  }
+}
+footer{
+  background-color: #000;
+  color: white;
+  padding:  4rem 0;
+
+  >.container{
+    >h2{
+      font-size: 3rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.social_icons{
+  >i{
+    font-size: 1.5rem;
+    padding: 6px 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  
+  .second-section {
+    padding: 0;
+  }
+
+  .surface-laptop-image {
+    background: transparent;
+    padding: 0;
+  }
+
+  .surface-laptop {
+    background: white;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+
+    > img {
+      width: 80%;
+      height: auto;
+    }
+    > p {
+      padding: 15px 0;
+      line-height: 25px;
+      word-spacing: 5px;
+      font-size: 1.1rem;
+      color: black;
+    }
+    > h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      padding-bottom: 10px;
+    }
+
+    > ul {
+      list-style-type: none;
+      > li {
+        margin: 10px 0;
+        font-size: 1rem;
+      }
+    }
+    > button {
+      padding: 10px 20px;
+      background: white;
+      margin: 0 auto;
+      color: #aa1674;
+      border: 1px solid #aa1674;
+      font-weight: 300;
+      font-size: 1.2rem;
+      border-radius: 30px;
+    }
+  }
+
+  .micro-logo-img {
+    height: 30px;
+    width: 120px; /* smaller height for phones */
+  }
+
+  .inted-image {
+    height: 25px;
+    width: 60px;
+  }
+  .second_navbar {
+    gap: 10px;
+  }
+  .main_logo {
+    font-size: 1.8rem;
+  }
+  .nav-item a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+  }
+  .second-Navbar:not(.show-navbar) {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: height 0.3s ease;
+  }
+
+  .second-Navbar.show-navbar {
+    height: auto;
+  }
+
+  .microsoft-surface {
+    font-size: 2rem;
+
+    line-height: 30px;
+  }
+  .svg-wrapper {
+    width: 70px; /* base size */
+    max-width: 100%; /* allow it to shrink */
+  }
+  .join-the-era {
+    > .join-era-text {
+      margin-left: 10px;
+      padding: 50px 0;
+
+      > .company-text {
+        font-size: 3rem;
+        font-weight: 600;
+        color: white;
+      }
+      > h1 {
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+      }
+      > .hero-paragraph {
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+      }
+    }
+  }
+
+
+  .why-insight-section {
+    padding: 0 10px;
+  
+    > *:not(.square-rect):not(.square-circle) {
+      position: relative;
+      z-index: 2;
+    }
+    > h2 {
+      font-size: 3rem;
+      font-weight: 800;
+      padding: 25px 0;
+      color: white;
+    }
+    > p {
+      padding: 20px 0;
+      line-height: 40px;
+      font-size: 1.4rem;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+
+  .second-section {
+    padding: 0;
+  }
+  .second_navbar {
+    gap: 30px;
+  }
+
+  .microsoft-surface {
+    font-size: 2rem;
+
+    line-height: 30px;
+  }
+  .svg-wrapper {
+    width: 70px; /* base size */
+    max-width: 100%; /* allow it to shrink */
+  }
+  .join-the-era {
+    > .join-era-text {
+      margin-left: 10px;
+      padding: 50px 0;
+
+      > .company-text {
+        font-size: 3rem;
+        font-weight: 600;
+        color: white;
+      }
+      > h1 {
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+      }
+      > .hero-paragraph {
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+      }
+    }
+  }
+}
+
