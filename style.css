@@ -124,7 +124,7 @@ body {
 }
 
 .btn-arrow i {
-  transform: rotate(-45deg);
+  transform: rotate(10deg);
 }
 
 .swiper {
@@ -294,27 +294,27 @@ body {
 }
 .insightBelowSwipper {
   margin: 0;
-  >img {
+  > img {
     width: 100px;
     height: 100px;
     margin-left: -10px;
   }
 }
-footer{
+footer {
   background-color: #000;
   color: white;
-  padding:  4rem 0;
+  padding: 4rem 0;
 
-  >.container{
-    >h2{
+  > .container {
+    > h2 {
       font-size: 3rem;
       font-weight: 600;
     }
   }
 }
 
-.social_icons{
-  >i{
+.social_icons {
+  > i {
     font-size: 1.5rem;
     padding: 6px 10px;
     border: 2px solid white;
@@ -323,11 +323,9 @@ footer{
 }
 
 @media (max-width: 767.98px) {
-  
   .second-section {
     padding: 0;
   }
-
 
   .surface-laptop-image {
     background: transparent;
@@ -439,10 +437,9 @@ footer{
     }
   }
 
-
   .why-insight-section {
     padding: 0 10px;
-  
+
     > *:not(.square-rect):not(.square-circle) {
       position: relative;
       z-index: 2;
@@ -463,7 +460,6 @@ footer{
 }
 
 @media (max-width: 991px) {
-
   .second-section {
     padding: 0;
   }
@@ -504,3 +500,57 @@ footer{
   }
 }
 
+@media (max-width: 576px) {
+  .microsoft-surface {
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  .why-insight-section {
+    > h2 {
+      font-size: 2.5rem;
+      padding: 20px 0;
+    }
+    > p {
+      padding: 15px 0;
+      font-size: 1.3rem;
+      line-height: 25px;
+    }
+  }
+
+  footer {
+    > .container {
+      
+      > h2 {
+        >img{
+          width: 80px;
+          height: 80px;
+        }
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+    }
+  }
+  
+
+
+  .join-the-era {
+    > .join-era-text {
+      > .surface-laptop-btn {
+        > button {
+          padding: 10px 20px;
+          font-size: 1rem;
+        }
+      }
+      > .company-text {
+        font-size: 2rem;
+      }
+      > h1 {
+        font-size: 30px;
+      }
+      > .hero-paragraph {
+        font-size: 17px;
+      }
+    }
+  }
+}
